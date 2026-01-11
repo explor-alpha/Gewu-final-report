@@ -17,9 +17,10 @@
 > 由于我对控制算法更感兴趣，就先从设计基于OpenLoong大体型机器人NPC入手；后续关于环境-玩家的优化有时间或有好的idea的时候再更新
 
 - 2026.1.1 **《人机追逐对抗 0.0》** 
-	- **NPC-OpenLoong大体型机器人-基础能力**：**实现双足机器人从“离散步态切换”到“连续步态切换”的能力，并可以自由控制机器人的行走速度**
-	- **环境设计**：简单设计一个长廊
-	- **玩家设计**：简单设计一个可以”wasd方向控制+space跳跃+鼠标视角变化“人偶（不需要刻画细节）；摄像头装在人身上
+	- **主要更新：**
+		- **NPC-OpenLoong大体型机器人-基础能力**：**实现双足机器人从“离散步态切换”到“连续步态切换”的能力，并可以自由控制机器人的行走速度**
+		- **环境设计**：简单设计一个长廊
+		- **玩家设计**：简单设计一个可以”wasd方向控制+space跳跃+鼠标视角变化“人偶（不需要刻画细节）；摄像头装在人身上
 	- **技术报告**（“连续步态切换”能力-RL训练）
 		1.  [Baseline架构解析](《人机追逐对抗%200.0》/report/Baseline架构解析.pdf): [Gewu-Playground](https://github.com/loongOpen/Unity-RL-Playground/tree/main/gewu/Assets/Playground)中`RobotRLAgent.cs`的架构解析
 		2.  [技术报告_Continuous Gait Transition (RL)](《人机追逐对抗%200.0》/report/技术报告_Continuous%20Gait%20Transition%20(RL).pdf):    **RL实现双足机器人Openloong从“离散步态切换”到“连续步态切换”的能力**
